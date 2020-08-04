@@ -3,19 +3,32 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="description" content="비틀즈 소개">
+    <meta name="keywords" content="비틀즈,Beatles,beatles">
+    <meta name="author" content="nasiri146">
     <title>비틀즈</title>
+    <style>
+        ::selection {
+            background-color: black;
+            color: white;
+        }
+    </style>
 </head>
 
 <body>
     <a href="Beatles_main.html"><img src="./image/Beatles_logo.svg" height="100px" alt="비틀즈 로고"></a>
-    <h1>비틀즈</h1>
-    <ol>
-        <li><a href="Beatles_Introducing.html"> 비틀즈 소개</a></li>
-        <li><a href="Beatles_members.html">비틀즈 멤버</a></li>
-        <li><a href="Beatles_songs.html">비틀즈 대표곡</a></li>
-        <li><a href="Beatles_discography.html">비틀즈 대표 앨범</a></li>
-    </ol>
-    <div>비틀즈에 대해 알려주는 사이트 입니다.</div>
+    <header>
+        <h1>비틀즈</h1>
+    </header>
+    <nav>
+        <ol>
+            <li><a href="Beatles_Introducing.html"> 비틀즈 소개</a></li>
+            <li><a href="Beatles_members.html">비틀즈 멤버</a></li>
+            <li><a href="Beatles_songs.html">비틀즈 대표곡</a></li>
+            <li><a href="Beatles_discography.html">비틀즈 대표 앨범</a></li>
+        </ol>
+    </nav>
+    <article><div>비틀즈에 대해 알려주는 사이트 입니다.</div>
     <form action="">
         <h4>사이트가 마음에 드시나요?</h4>
         <select name="사이트 설문조사">
@@ -31,33 +44,33 @@
         <p><input type="submit" value="보내기"></p>
         <p><label><input id="checkbox" type="checkbox" name="checkbox"> 여기를 눌러주세요.</label></p>
     </form>
-<!--사이트맵-->
+    </article>
+    <!--사이트맵-->
     <br>
-    사이트 맵
-    <table border="1">
-        <thead>
-            <tr>
-                <th>메인</th>
-                <th>비틀즈 소개</th>
-                <th>비틀즈 맴버</th>
-                <th>비틀즈 대표곡</th>
-                <th>비틀즈 대표앨범</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td></td>
-                <td>Love Me DO</td>
-                <td>존 레논</td>
-                <td>대표곡1</td>
-                <td>대표앨범1</td>
-            </tr>
-        </tbody>
-        <tfoot>
-            <td>전화번호</td>
-            <td colspan="4">010-xxxx-xxxx</td>
-        </tfoot>
-    </table>
-</body>
-
-</html>
+    <footer>사이트 맵
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>메인</th>
+                    <th>비틀즈 소개</th>
+                    <th>비틀즈 맴버</th>
+                    <th>비틀즈 대표곡</th>
+                    <th>비틀즈 대표앨범</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td></td>
+                    <td>Love Me DO</td>
+                    <td>존 레논</td>
+                    <td>대표곡1</td>
+                    <td>대표앨범1</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <td>전화번호</td>
+                <td colspan="4">010-xxxx-xxxx</td>
+            </tfoot>
+        </table>
+    </footer>
+</body></html>
