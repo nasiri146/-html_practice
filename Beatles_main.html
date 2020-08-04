@@ -17,12 +17,47 @@
     </ol>
     <div>비틀즈에 대해 알려주는 사이트 입니다.</div>
     <form action="">
-    <h4>사이트가 마음에 드시나요?</h4>
-    <select name="사이트 설문조사">
-        <option value="Yes">네!</option>
-        <option value="NO">아니요..</option>
-        <option value="So so">별루에요.</option>
-    </select>
-    <input type="submit">
+        <h4>사이트가 마음에 드시나요?</h4>
+        <select name="사이트 설문조사">
+            <option value="Yes">네!</option>
+            <option value="NO">아니요..</option>
+            <option value="So so">별루에요.</option>
+        </select>
+        <input type="submit">
+        방명록<br><br>
+        <p style="background-color: aqua"><label>이름 : <input id="name_txt" type="text" name="name" value="이름을 입력 해 주세요."></label></p>
+        <p style="background-color: cadetblue"><label>전화번호 : <input id="callnember_txt" type="password" name="callnember" value="전화번호를 입력 해 주세요."></label></p>
+        <p><label>한줄 남기기 : <textarea id="comment_txt" cols="50" rows="5">소감을 남겨주세요</textarea></label></p>
+        <p><input type="submit" value="보내기"></p>
+        <p><label><input id="checkbox" type="checkbox" name="checkbox"> 여기를 눌러주세요.</label></p>
     </form>
-</body></html>
+<!--사이트맵-->
+    <br>
+    사이트 맵
+    <table border="1">
+        <thead>
+            <tr>
+                <th>메인</th>
+                <th>비틀즈 소개</th>
+                <th>비틀즈 맴버</th>
+                <th>비틀즈 대표곡</th>
+                <th>비틀즈 대표앨범</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td></td>
+                <td>Love Me DO</td>
+                <td>존 레논</td>
+                <td>대표곡1</td>
+                <td>대표앨범1</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <td>전화번호</td>
+            <td colspan="4">010-xxxx-xxxx</td>
+        </tfoot>
+    </table>
+</body>
+
+</html>
